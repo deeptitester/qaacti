@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25375" started-at="2020-04-29T00:46:12Z" finished-at="2020-04-29T00:46:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25375" started-at="2020-04-29T00:46:12Z" finished-at="2020-04-29T00:46:37Z">
+      <class name="com.qa.jitubase.DriverScript">
+        <test-method status="PASS" signature="initapp()[pri:0, instance:com.qa.jitubase.DriverScript@77caeb3e]" name="initapp" duration-ms="25307" started-at="2020-04-29T00:46:12Z" finished-at="2020-04-29T00:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initapp -->
+      </class> <!-- com.qa.jitubase.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
