@@ -50,5 +50,8 @@ public class Loginpagetest extends DriverScript
 	
 	   
    }
-  
+  @Test
+  public void testvelidateloginfunction1(){
+	  lp.validatelogin(prop.getProperty("username"),prop.getProperty("passward"));
+  }
 }
