@@ -10,12 +10,14 @@ import com.qa.pages.Timetrackpage;
 
 public class Testcreatecustomer extends DriverScript {
 	Loginpage lp;
-	 Taskpage Tp;
-	 Timetrackpage TT;
+	Taskpage Tp;
+	Timetrackpage TT;
+	
 	public  Testcreatecustomer()
 	{
 		super();
     }
+	
 	@BeforeMethod
 	public void pretest(){
 		initapp();
@@ -24,12 +26,14 @@ public class Testcreatecustomer extends DriverScript {
 		 TT = new Timetrackpage();
 	}
   @Test
-   public void testcreatecustomer()
+   public void testcreatecustomer() throws Exception
    {
 	   lp.validatelogin("admin", "manager");
 	String userlogged = TT.getuserloggedintext();
 	System.out.println(userlogged);
 	TT.taksmenu();
+	Thread.sleep(2000);
 	Tp.addnew();
+	Tp.newcustomer();
    }
 }

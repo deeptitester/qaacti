@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19517" started-at="2020-04-30T19:45:58Z" finished-at="2020-04-30T19:46:17Z">
+  <suite name="Default suite" duration-ms="29956" started-at="2020-05-01T01:57:06Z" finished-at="2020-05-01T01:57:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19517" started-at="2020-04-30T19:45:58Z" finished-at="2020-04-30T19:46:17Z">
+    <test name="Default test" duration-ms="29956" started-at="2020-05-01T01:57:06Z" finished-at="2020-05-01T01:57:36Z">
       <class name="com.qa.testcase.Testcreatecustomer">
-        <test-method status="PASS" signature="pretest()[pri:0, instance:com.qa.testcase.Testcreatecustomer@5622fdf]" name="pretest" is-config="true" duration-ms="10838" started-at="2020-04-30T19:45:58Z" finished-at="2020-04-30T19:46:09Z">
+        <test-method status="PASS" signature="pretest()[pri:0, instance:com.qa.testcase.Testcreatecustomer@5622fdf]" name="pretest" is-config="true" duration-ms="17929" started-at="2020-05-01T01:57:06Z" finished-at="2020-05-01T01:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pretest -->
-        <test-method status="FAIL" signature="testcreatecustomer()[pri:0, instance:com.qa.testcase.Testcreatecustomer@5622fdf]" name="testcreatecustomer" duration-ms="8599" started-at="2020-04-30T19:46:09Z" finished-at="2020-04-30T19:46:17Z">
+        <test-method status="FAIL" signature="testcreatecustomer()[pri:0, instance:com.qa.testcase.Testcreatecustomer@5622fdf]" name="testcreatecustomer" duration-ms="11893" started-at="2020-05-01T01:57:24Z" finished-at="2020-05-01T01:57:36Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.qa.pages.Taskpage.addnew(Taskpage.java:26)
-at com.qa.testcase.Testcreatecustomer.testcreatecustomer(Testcreatecustomer.java:33)
+at com.qa.pages.Taskpage.addnew(Taskpage.java:25)
+at com.qa.testcase.Testcreatecustomer.testcreatecustomer(Testcreatecustomer.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
